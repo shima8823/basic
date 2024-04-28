@@ -1,7 +1,7 @@
-import 'package:calculator_proj/main.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'button.dart';
+import 'calculate_state.dart';
 
 Widget numpad(BuildContext context) {
   return GridView.builder(
